@@ -25,7 +25,6 @@ const MenuDropdown: React.FC<DropdownProps> = ({ label, children }) => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
-
       {isOpen && (
         <div className="absolute top-full left-0 mt-2 w-full bg-white rounded-lg shadow-md z-10">
           {children}
