@@ -1,3 +1,9 @@
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
 # Logs
 logs
 *.log
@@ -22,3 +28,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

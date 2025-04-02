@@ -2,7 +2,7 @@ import { FaFilter, FaThLarge, FaRegFileAlt, FaBriefcase, FaBullhorn, FaEdit, FaU
 
 const Sidebar = () => {
   return (
-    <div className="max-h-f w-16 bg-yellow-800 flex flex-col items-center py-4 space-y-4 rounded-lg">
+    <div className="w-full md:w-20 bg-yellow-800 p-4 flex md:flex-col items-center space-y-4">
       <button className="p-2 rounded-full bg-yellow-600 text-white hover:bg-yellow-500">
         <FaFilter size={20} />
       </button>
